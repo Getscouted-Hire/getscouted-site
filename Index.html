@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GetScouted | Scout Talent Globally</title>
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; line-height:1.6; color:#333; }
+    header { background:#002244; color:#fff; padding:20px; text-align:center; }
+    nav a { color:#fff; margin:0 15px; text-decoration:none; }
+    .hero { padding:100px 20px; background:#eef3ff; text-align:center; }
+    .hero h1 { margin:0; }
+    .section { padding:60px 20px; max-width:900px; margin:0 auto; }
+    .services { display:flex; flex-wrap:wrap; justify-content:space-around; }
+    .service { width:280px; margin:15px; padding:20px; border:1px solid #ccc; border-radius:8px; background:white; }
+    .contact form { max-width:500px; margin:auto; }
+    input, textarea { width:100%; padding:10px; margin:8px 0; }
+    button { padding:12px 24px; background:#002244; color:#fff; border:none; border-radius:5px; cursor:pointer; }
+    footer { background:#f1f1f1; text-align:center; padding:20px; }
+    @media (max-width:600px) {
+      .services { flex-direction:column; align-items:center; }
+      .service { width:100%; max-width:320px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>GetScouted</h1>
+    <p>Scout Talent Globally</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Verified Performance. Global Visibility.</h2>
+    <p>We help athletes showcase their true potential with biometric-tested performance assessments shared worldwide.</p>
+    <a href="#contact" style="display:inline-block; margin-top:20px; padding:15px 30px; background:#002244; color:#fff; text-decoration:none; border-radius:5px;">Get In Touch</a>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>
+      GetScouted was founded in 2018 to revolutionize athlete recruitment by offering verified, in-person combine testing backed by biometric monitoring. Our platform connects rising talent with scouts, coaches, teams, and universities globally.
+    </p>
+  </section>
+
+  <section id="services" class="section">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Combine Testing</h3>
+        <p>Measure true athletic ability through precision-timed drills and metrics at elite testing centers.</p>
+      </div>
+      <div class="service">
+        <h3>Verified Data Reports</h3>
+        <p>Deliver trusted, verifiable results to scouts—instantly accessible online.</p>
+      </div>
+      <div class="service">
+        <h3>Global Athlete Exposure</h3>
+        <p>Share your performance portfolio with colleges, scouts, and pro leagues worldwide.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <h2>Contact Us</h2>
+    <form action="mailto:info@getscouted.com" method="POST" enctype="text/plain">
+      <input type="email" name="email" placeholder="Your email" required />
+      <textarea name="message" rows="5" placeholder="Your message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 GetScouted Inc. | Scout Talent Globally</p>
+  </footer>
+
+</body>
+</html>
